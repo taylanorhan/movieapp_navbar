@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .navbar {
+      background: cover;
+    }
+    
+   
+
+    /* #navbar_orhan{
+      position: sticky !important;
+      top: 0;
+    } */
+    
+  </style>
+  <body id="body">
+    <header>
+      <nav class="container-fluid navbar navbar-expand-md navbar-light bg-light px-4">
+        <a class="navbar-brand" href="#">MovieApp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Movies <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TV Series</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <a class="btn btn-outline-success my-2 my-sm-0" type="submit"href="register.html">Register</a>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <section id="showcase">
+        <div class="content">
+          <h2>Welcome</h2>
+          <h3>
+            Millions of movies, TV shows and people to discover. Explore now.
+          </h3>
+        </div>
+      </section>
+      <section>
+        <div class="row">
+          <h2 class="text-center fs-1 mt-3">How it works?</h2>
+          <p class="text-center mt-2">
+            We will show you step by step how to start watching your favorite
+            movies & tv shows starting now!
+          </p>
+        </div>
+        <div class="d-flex  flex-md-row flex-column justify-content-between  mb-4 px-3 text-center">
+          <div
+            class="icon-box col-md-3 d-flex flex-column justify-content-center align-items-center"
+          >
+            <i class="fas fa-sign-in-alt fa-3x"></i>
+            <h3>Register Here</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+              dolor repellendus minus doloribus tenetur accusamus?
+            </p>
+          </div>
+          <div
+            class="icon-box col-md-3 d-flex flex-column justify-content-center align-items-center"
+          >
+            <i class="fab fa-buffer fa-3x"></i>
+            <h3>Choose a Plan</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+              dolor repellendus minus doloribus tenetur accusamus?
+            </p>
+          </div>
+          <div
+            class="icon-box col-md-3 d-flex flex-column justify-content-center align-items-center"
+          >
+            <i class="far fa-smile fa-3x"></i>
+            <h3>Enjoy Movies</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+              dolor repellendus minus doloribus tenetur accusamus?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="d-flex flex-md-row flex-column my-5">
+          <div class="col-md-6">
+            <img src="img/features.jpeg" class="img-fluid" />
+          </div>
+          <div class="col-md-6 ">
+            <h1 class="mt-2 p-4">Watch all Movies & TV Shows once they get released!</h1>
+            <p class="my-3 p-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              aperiam deserunt quaerat? Doloremque expedita repellendus adipisci
+              eligendi nobis illum! Perferendis ab blanditiis eius iste incidunt
+              esse numquam asperiores hic suscipit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Consequuntur maiores perferendis
+              nobis omnis voluptatem? Quaerat officiis esse, nesciunt, excepturi
+              pariatur voluptatem molestiae, culpa quis consequatur cupiditate
+              rem? Alias, laborum laudantium. Velit placeat vero doloremque
+              natus expedita fugiat libero temporibus fugit repudiandae quae
+              asperiores ab doloribus eius maxime porro quibusdam veniam
+              voluptatem possimus magni at, alias rerum voluptatum repellat
+              iusto! Maxime!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="plan">
+        <h2 class="section-title">Become a Premium Member</h2>
+        <div class="d-flex flex-md-row flex-column justify-content-center">
+          <div class="col-md-3 plan">
+            <div class="inner-plan">
+              <h2>Free</h2>
+              <h3>0/month</h3>
+              <ul class="plan__features">
+                <li>HD available</li>
+                <li>Unlimited Movies and TV shows</li>
+                <li>Watch on your phone & tablet</li>
+                <li>Download and watch offline</li>
+                <li>Screens you can watch</li>
+                <li>First Month Free</li>
+              </ul>
+              <div>
+                <button class="btn btn-primary">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 plan plan--featured pt-6">
+            <div class="inner-plan recommended_plan">
+              <h2 class="plan__badge">Recommended</h2>
+              <h2>Basic</h2>
+              <h3>$9.99/month</h3>
+              <ul class="plan__features">
+                <li>HD available</li>
+                <li>Unlimited Movies and TV shows</li>
+                <li>Watch on your phone & tablet</li>
+                <li>Download and watch offline</li>
+                <li>Screens you can watch</li>
+                <li>First Month Free</li>
+              </ul>
+              <div>
+                <button class="btn btn-primary">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 plan">
+            <div class="inner-plan">
+              <h2>Premium</h2>
+              <h3>$19.99/month</h3>
+              <ul class="plan__features">
+                <li>HD available</li>
+                <li>Unlimited Movies and TV shows</li>
+                <li>Watch on your phone & tablet</li>
+                <li>Download and watch offline</li>
+                <li>Screens you can watch</li>
+                <li>First Month Free</li>
+              </ul>
+              <div>
+                <button class="btn btn-primary">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="counters">
+        <div class="row counter justify-content-center my-5">
+          <div class="col-3">
+            <span class="counter__item">974</span>
+            <h4>Movies</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter__item">456</span>
+            <h4>Tv Shows</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter__item">976</span>
+            <h4>Users</h4>
+          </div>
+        </div>
+      </section>
+      <section id="movies">
+        <h2 class="section-title">Latest Movies & TV Shows</h2>
+
+        <div class="justify-content-center d-flex flex-md-row flex-column gap-4">
+          <div class="col-md-3 card-container">
+            <div class="card">
+              <img
+                class="card-image img-fluid object-fit"
+                src="img/poster-1.jpeg"
+                alt=""
+              />
+              <div class="card-body">
+                <h2>Star Wars</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                  porro dolore expedita distinctio quas in.
+                </p>
+                <p>
+                  <button class="btn btn-primary">Details</button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 card-container">
+            <div class="card">
+              <img
+                class="card-image img-fluid object-fit-contain"
+                src="img/poster-2.jpeg"
+                alt=""
+              />
+              <div class="card-body">
+                <h2>Star Wars</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                  porro dolore expedita distinctio quas in.
+                </p>
+                <p>
+                  <button class="btn btn-primary">Details</button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 card-container">
+            <div class="card">
+              <img
+                class="card-image img-fluid"
+                src="img/poster-3.jpeg"
+                alt=""
+              />
+              <div class="card-body">
+                <h2>Star Wars</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                  porro dolore expedita distinctio quas in.
+                </p>
+                <p>
+                  <button class="btn btn-primary">Details</button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="justify-content-center">
+      <div class="container">
+        <div class=" justify-content-between d-flex flex-row">
+          <div>
+            <ul id="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Forum</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul id="social-links " class="">
+              <li><a href="" class="fab fa-facebook"></a></li>
+              <li><a href="" class="fab fa-twitter"></a></li>
+              <li><a href="" class="fab fa-instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#body" id="backtotop">
+      <i class="fas fa-chevron-circle-up"></i>
+    </a>
+
+    <script>
+      function displayMenu() {
+        var link = document.getElementById("main-nav");
+        link.classList.toggle("responsive");
+      }
+    </script>
+  </body>
+</html>
